@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="googlePageObject"
+    errors="1" failures="0" hostname="" id="" package="googlePageObject" skipped="0"
+    tests="1" time="0.007000" timestamp="">
+  
+    <testcase name="Demo Google search test using page objects" classname="googlePageObject" time="0.007000" assertions="0">
+      <error message="client.page.home is not a function" type="error">TypeError: client.page.home is not a function
+    at Object.Demo Google search test using page objects (C:\Users\FERNANDO\Desktop\Proyectos\testing\nighwatch_v1.0\node_modules\nightwatch\examples\tests\googlePageObject.js:3:32)
+    at Context.call (C:\Users\FERNANDO\Desktop\Proyectos\testing\nighwatch_v1.0\node_modules\nightwatch\lib\testsuite\context.js:379:35)
+    at TestCase.run (C:\Users\FERNANDO\Desktop\Proyectos\testing\nighwatch_v1.0\node_modules\nightwatch\lib\testsuite\testcase.js:49:31)
+    at Runnable.__runFn (C:\Users\FERNANDO\Desktop\Proyectos\testing\nighwatch_v1.0\node_modules\nightwatch\lib\testsuite\index.js:374:80)
+    at Runnable.run (C:\Users\FERNANDO\Desktop\Proyectos\testing\nighwatch_v1.0\node_modules\nightwatch\lib\testsuite\runnable.js:123:21)
+    at TestSuite.createRunnable (C:\Users\FERNANDO\Desktop\Proyectos\testing\nighwatch_v1.0\node_modules\nightwatch\lib\testsuite\index.js:441:33)
+    at TestSuite.handleRunnable (C:\Users\FERNANDO\Desktop\Proyectos\testing\nighwatch_v1.0\node_modules\nightwatch\lib\testsuite\index.js:446:18)
+    at C:\Users\FERNANDO\Desktop\Proyectos\testing\nighwatch_v1.0\node_modules\nightwatch\lib\testsuite\index.js:374:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DefaultRunner.runTestSuite (C:\Users\FERNANDO\Desktop\Proyectos\testing\nighwatch_v1.0\node_modules\nightwatch\lib\runner\test-runners\default.js:68:7)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: client.page.home is not a function
+   - verify if page objects are setup correctly, check &#34;page_objects_path&#34; in your config[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
